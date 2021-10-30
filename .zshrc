@@ -16,7 +16,7 @@ compinit
 autoload -Uz vcs_info
 precmd () { vcs_info }
 setopt prompt_subst
-zstyle ':vcs_info:*' formats ' %F{blue}(%b)%f'
+zstyle ':vcs_info:*' formats '  %F{blue}%b%f'
 
 # create prompt
 PS1='%B%F{green}%n%f@%F{red}%m%f %F{yellow}%.%f${vcs_info_msg_0_} %%%b '
@@ -38,6 +38,7 @@ alias mv='mv -i'
 alias mkdir='mkdir -pv'
 alias netres="netctl restart $(netctl list | grep '*' | cut -d ' ' -f2)"
 alias rm='rm -v'
+alias ucdvpn='doas openconnect --protocol=pulse vpn.library.ucdavis.edu'
 alias untar='tar -xvf'
 alias update='doas pacman -Syu && flatpak update -y'
 alias vi='vim'
