@@ -40,7 +40,7 @@ alias netres="netctl restart $(netctl list | grep '*' | cut -d ' ' -f2)"
 alias rm='rm -v'
 alias ucdvpn='doas openconnect --protocol=pulse vpn.library.ucdavis.edu'
 alias untar='tar -xvf'
-alias update='doas pacman -Syu && flatpak update -y'
+alias update='doas pacman -Syu'
 alias vi='vim'
 
 # rehash hook connection with /etc/pacman.d/hooks/zsh.hook and /var/cache/zsh

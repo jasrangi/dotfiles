@@ -53,7 +53,7 @@ feh --bg-scale /path/to/background.file
 This will automatically configure ~/.fehbg for use in .xinitrc.
 
 ### .zshrc
-**Dependencies:** zsh, zsh-syntax-highlighting, zsh-autosuggestions \
+**Dependencies:** zsh, zsh-syntax-highlighting, zsh-autosuggestions, FontAwesome \
 **Dependencies for aliases:** bluez, bluez-utils, netctl \
 The .zshrc file is the script used when a zsh session is created. The .zshrc file
 in this repository includes defaults set by the zsh-newuser-install and
