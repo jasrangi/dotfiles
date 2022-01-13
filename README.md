@@ -10,6 +10,7 @@ the operating system expects to see the files.
 ```sh
 ln -s .vimrc ~/.vimrc
 ln -s .xinitrc ~/.xinitrc
+ln -s .Xresources ~/.Xresources
 ln -s .zshrc ~/.zshrc
 ln -s alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
